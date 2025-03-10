@@ -1,0 +1,86 @@
+# CommunionHub React Developer Assignment
+
+## 📘 **Project Overview**
+CommunionHub is a two-page React web application designed to connect people across faiths and interests through events. Users can explore, filter, and add new events, fostering community connections. The project features a responsive and animated UI, built using React.js, Tailwind CSS, and Framer Motion, and is deployed on platforms like Vercel or Netlify.
+
+## 🏗️ **Features**
+
+- **Home Page:**
+  - Welcome message and brief description of the Communion App.
+  - Hero section with a title, short description, and CTA button linking to the Events page.
+  - Navigation bar with links to Home, Events, and About pages.
+
+- **Event Listing Page:**
+  - List of events displaying title, date, location, and description.
+  - Event filtering by category (Religious, Social, Charity).
+  - Form to add new events with title, date, and category fields.
+
+## 🛠️ **Tech Stack**
+
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** React Router
+
+## 🏁 **Installation & Setup**
+
+1. **Clone the Repository:**
+
+```bash
+git clone <repository-url>
+cd communionhub
+```
+
+2. **Install Dependencies:**
+
+```bash
+npm install
+```
+
+3. **Start the Development Server:**
+
+```bash
+npm start
+```
+
+The app will run at `http://localhost:3000`.
+
+## 🚀 **Deployment**
+
+- **Vercel:**
+  1. Create a Vercel account.
+  2. Link your GitHub repository.
+  3. Deploy with default settings.
+
+- **Netlify:**
+  1. Create a Netlify account.
+  2. Drag and drop the build folder or link your GitHub repo.
+  3. Deploy with a custom subdomain (optional).
+
+## 📂 **Folder Structure**
+
+```
+src/
+├── components/
+│   ├── Header.js
+│   ├── HeroSection.js
+│   ├── EventList.js
+│   ├── EventForm.js
+│   └── Filter.js
+├── pages/
+│   ├── Home.js
+│   └── Events.js
+├── App.js
+└── index.js
+```
+
+## 🎯 **Future Improvements**
+
+- Add event details page with full descriptions and images.
+- Implement user authentication (Login/Signup).
+- Add notifications or reminders for events.
+
+## 📄 **Conclusion**
+
+This project demonstrates core React.js concepts like component-based architecture, state management, and routing. It also highlights responsive design, smooth animations, and form handling.
+
